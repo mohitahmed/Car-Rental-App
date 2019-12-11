@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "647816123295",
+    "firebase_url": "https://car-rental-app-baad7.firebaseio.com",
+    "project_id": "car-rental-app-baad7",
+    "storage_bucket": "car-rental-app-baad7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647816123295:android:f235f00eea4c9c1586a3aa",
+        "android_client_info": {
+          "package_name": "com.example.carrentalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647816123295-o3cj0l5ddsn61a71s264o6fji7h4f9b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3HnZC8YDsKDYKaoL5ABkNEwMIQYwH1rU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647816123295-o3cj0l5ddsn61a71s264o6fji7h4f9b5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ViewFlipper
+            android:id="@+id/v_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:background="#A7FFEB" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_marginTop="250dp"
+            android:columnCount="1"
+            android:rowCount="6">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="#A7FFEB"
+                android:backgroundTint="#FF80AB"
+                android:text="Gallery" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:background="#A7FFEB"
+                android:backgroundTint="#FF8A80"
+                android:text="Rates" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:background="#A7FFEB"
+                android:backgroundTint="#EA80FC"
+                android:text="Cars" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:background="#A7FFEB"
+                android:backgroundTint="#B388FF"
+                android:text="Booking" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:background="#A7FFEB"
+                android:backgroundTint="#8C9EFF"
+                android:text="Contact Us" />
+
+        </GridLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>
